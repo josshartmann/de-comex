@@ -10,16 +10,14 @@ Este repositório contém um código em Python e um script VBA que permitem a tr
 
 3. Siga as instruções abaixo para estilizar as tabelas geradas a partir dos arquivos CSV:
 
-   - Abra o Microsoft Excel e pressione `Alt + F11` para abrir o Editor VBA.
-   - No Editor VBA, copie e cole o script VBA fornecido no arquivo `estilizar_tabelas.vba`.
-   - Substitua o valor da célula C2 na planilha ativa com o caminho da pasta onde os arquivos CSV processados estão localizados.
+   - Abra o Microsoft Excel, substitua o valor da célula C2 na planilha ativa com o caminho da pasta onde os arquivos CSV processados estão localizados.
    - Execute o script VBA `AdicionarSheetsIE` para adicionar as planilhas dos arquivos CSV na pasta especificada, estilizando as tabelas conforme descrito no código VBA.
 
 4. As planilhas com as tabelas estilizadas serão criadas em um novo arquivo do Excel. Cada planilha corresponderá a um arquivo CSV processado. As tabelas terão as células mescladas corretamente, valores formatados, cabeçalhos ajustados e estilos aplicados.
 
 ## Observações
 
-- Certifique-se de ajustar o código Python fornecido no arquivo `transform_data.py` com os caminhos corretos para os arquivos CSV de importação e exportação.
+- Certifique-se de ajustar o código Python fornecido no arquivo `script.ipynb com os caminhos corretos para os arquivos CSV de importação e exportação.
 - Os arquivos CSV de importação e exportação devem estar no formato esperado pelo código Python, com as colunas relevantes para a análise.
 - O código Python irá processar os dados e gerar arquivos CSV separados por estado na pasta de saída especificada.
 - O script VBA irá adicionar as planilhas dos arquivos CSV na pasta especificada, estilizando as tabelas criadas.
